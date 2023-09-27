@@ -1,0 +1,11 @@
+#4. Write a R program to compute sum, mean and product of a given vector elements.
+vec1 <-c(12,23,45,56)
+vec1_sum <-sum(vec1)
+cat("sum:\n")
+print(vec1_sum)
+vec1_mean <-mean(vec1)
+cat("mean:\n")
+print(vec1_mean)
+vec1_pro <- prod(vec1)
+cat("product:\n")
+print(vec1_pro)
